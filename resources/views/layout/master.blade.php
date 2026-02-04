@@ -5,7 +5,7 @@
 <body class="index-page">
     @include('layout.header')
 
-
+    
     @yield('content')
 
 

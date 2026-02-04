@@ -89,9 +89,9 @@
     </div>
 
     <div class="location-dropdown collapse" id="location-dropdown">
-        <card class=" py-3 py-sm-5">
+        <card class=" py-3 py-sm-5 px-sm-5 px-0">
             <h6 class="fw-bold fs-5 mb-4 text-center text-capitalize">Choose delivery location</h6>
-            <div class='w-100 w-md-50 mx-auto '>
+            <div class='w-100  mx-auto px-sm-5 px-0'>
                 <div class="input-group rounded-0 overflow-hidden border py-1 mx-auto">
                     <span class="input-group-text bg-white border-0">
                         <i class="bi bi-search text-primary-alt"></i>
@@ -115,7 +115,7 @@
 
 
 <!-- Login Offcanvas -->
-<div class="offcanvas offcanvas-end" tabindex="-1" id="loginoffcanvas" aria-labelledby="loginoffcanvasLabel" style="background-image: url('{{ asset('assets/image/other/bd_image.jpg') }}');">
+<div class="offcanvas offcanvas-end" tabindex="-1" id="loginoffcanvas" aria-labelledby="loginoffcanvasLabel"  style="background-image: url('{{ asset('assets/image/other/bd_image.jpg') }}')">
     <div class="offcanvas-header">
         <div class="offcanvas-title" id="loginoffcanvasLabel">
             <img src="{{ asset('assets/image/logo.png') }}" alt="Logo" class="logoImg img-fluid">
