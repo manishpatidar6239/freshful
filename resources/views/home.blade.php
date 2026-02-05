@@ -193,11 +193,11 @@
     </div>
 
     <!-- Best Sellers Section -->
-    <div class="best-sellers-section pt-3 pt-sm-5 pb-3 pb-sm-5 my-sm-3">
+    <div class="best-sellers-section pt-3 pt-sm-5 pb-3 pb-sm-5 my-sm-3" style="background-image: url('{{ asset('assets/image/food-parallax.jpg') }}')">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
-                    <h2 class="fs-2 mb-1">Best Sellers</h2>
+                    <h2 class="fs-2 mb-1 text-white">Best Sellers</h2>
                 </div>
             </div>
             <div class="swiper bestSellerSwiper py-3 px-2">
@@ -251,7 +251,7 @@
     </div>
     </div>
     <!-- Meat & Seafood Section -->
-    <div class="best-sellers-section pt-3 pt-sm-5 pb-3 pb-sm-5 my-sm-3">
+    <div class="meat-sellers-section pt-3 pt-sm-5 pb-3 pb-sm-5 my-sm-3">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
@@ -263,7 +263,7 @@
                 <div class="row ">
                     <!-- Slides -->
                     @for ($i = 1; $i <= 6; $i++)
-                        <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-3 mb-4">
                         <div class="pro-card">
                             <div class="pro-card-img">
                                 <a href="{{ url('/product_detail') }}">

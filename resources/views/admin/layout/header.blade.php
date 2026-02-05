@@ -64,8 +64,8 @@
                      <h4 class="name">Admin Name</h4>
                  </a>
                  <ul class="dropdown-menu">
-                     <li><a href="profile.php"><i class="fa fa-user"></i> My Profile</a></li>
-                     <li><a href="logout.php"><i class="fa fa-power-off"></i> Logout</a></li>
+                     <li><a href="{{url('admin/profile')}}"><i class="fa fa-user"></i> My Profile</a></li>
+                     <li><a href="{{url('admin/profile')}}"><i class="fa fa-power-off"></i> Logout</a></li>
                  </ul>
              </div>
 

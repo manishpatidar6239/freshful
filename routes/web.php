@@ -237,7 +237,41 @@ Route::prefix('admin')->group(function () {
     Route::get('/view_country_manager', function () {
         return view('admin.view_country_manager');
     });
-   
+    Route::get('/production_user', function () {
+        return view('admin.production_user');
+    });
+    Route::get('/add_production_user', function () {
+        return view('admin.add_production_user');
+    }); 
+    Route::get('/view_production_user', function () {
+        return view('admin.view_production_user');
+    }); 
+    Route::get('/operation_managers', function () {
+        return view('admin.operation_managers');
+    }); 
+    Route::get('/add_operation_manager', function () {
+        return view('admin.add_operation_manager');
+    }); 
+    Route::get('/view_operation_manager', function () {
+        return view('admin.view_operation_manager');
+    }); 
+
+    Route::get('/profile', function () {
+        return view('admin.profile');
+    }); 
+    Route::get('/edit_profile', function () {
+        return view('admin.edit_profile');
+    }); 
+    Route::get('/certificate', function () {
+        return view('admin.certificate');
+    }); 
+    
+    Route::get('/inventory_report_detail', function () {
+        return view('admin.inventory_report_detail');
+    }); 
+    Route::get('/sale_summary', function () {
+        return view('admin.sale_summary');
+    }); 
 
 
 

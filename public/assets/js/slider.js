@@ -35,6 +35,12 @@ const categorySwiper = new Swiper('.categorySwiper', {
         // when window width is >= 640px
         640: {
             slidesPerView: 9
+        },
+          1400: {
+            slidesPerView: 12
+        },
+          1600: {
+            slidesPerView: 14
         }
     },
     pagination: {
@@ -91,6 +97,15 @@ const bestSellerSwiper = new Swiper('.bestSellerSwiper', {
         },
         767: {
             slidesPerView: 3
+        },
+        1400:{
+            slidesPerView: 4
+        },
+         1600:{
+            slidesPerView: 4
+        },
+          1800:{
+            slidesPerView: 5
         }
     },
 
